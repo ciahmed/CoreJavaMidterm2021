@@ -1,84 +1,103 @@
 Please answer the below Data Structure Questions:
 
-why do we need data structure?
-A.
+Why do we need data structure?
+A.To design the algorithm efficiently.
 
 What are the various operations that can be performed on different Data Structures?
-A.
+A.Insertion, Deletion and Traversal.
 
 List out the areas in which data structures are applied extensively?
-A.
+A.Operating system, Database Management System, Artificial Intelligence.
 
 what is an Array?
-A.
+A.Array is a data structure.
 
 what is the difference between the Array and ArrayList?
-A.
+A.Array is fixed length data structure whereas ArrayList is variable length collection of class.
 
 what is LinkedList?
-A.
+A.LinkedList is a class.
 
 How is an Array different from Linked List?
-A.
+A.Array elements store in a contiguous memory location. Linked list elements can be stored anywhere in the memory.
 
 what is queue?
-A.
+A.Linear Data Structure.
 
 what is stack?
-A.
+A.Java memory.
 
 what is FIFO and LIFO?
-A.
+A.FIFO- First in First out. LIFO- Last in First out.
 
 what is the order of complexity?
-A.
+A.O(N), O(N^2), O(N^3), O(N*log(N)) etc.
 
 what is the best case to search an element from an array?
-A.
+A.Sequential search
 
 what is the worst case to search an element from an array?
-A.
+A.If the element is last in array.
 
 what is tree in data structure?
-A.
+A.Hierarchical data structure defined as a collection of nodes.
 
 what is graph in data structure?
-A.
+A.Non-linear Data Structure consisting of nodes and edges.
 
 what is the difference between the HashTable and HashMap?
-A.
+A.HashTable is tread safe but HashMap is not.
 
 What are the major data structures used in the following areas
-A.
+A.Array, linked list, Stack
 
 How HashMap works in java?
-A.
+A.HashMap works on hashing principles.
 
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
-A.
+A.An exception while trying to access array element with an illegal index. This exception is thrown when the index is either negative or greater than or equal to the size of the array.
 
 What are the different ways of copying an array into another array?
-A.
+A.Use System. arraycopy() method, clone method of array.
 
 What is difference between an array and a linked list?
-A.
+A.An array is a collection of elements of a similar data type. A linked list is a collection of objects known as a node.
 
 What is DFS and BFS?
-A.
+A.DFS(Depth First Search); BFS(Breadth First Search)
 
 What is Recursion?
-A.
+A.Its a technique where a method can be calls itself.
 
 What are linear and non linear data Structures?
-A.
+A.Linear: Array, List, Queue, Stack; Non-Linear: Graph, Map, Tree.
 
 What is Big-(O)-notation?
-A.
+A.Algorithm complexity.
 
 Outlined different kind of sorting algorithm with time complexity?
-A.
+A.Bubble sort (O(n^2)), Insertion sort (O(n^2)), Heap sort (O(n log(n))).
 
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
 A.
+  Array:
+  Advantages:- Lookup O(1)
+  Disadvantages:- Search O(n)
+
+  Hash-table or Hash map or Map:
+  Advantages:- Search O(1)
+  Disadvantages:- To print all keys O(loop over memory locations)
+
+  Linked List:
+  Advantages:- Prepend O(1)
+  Disadvantages:- Lookup O(n)
+
+  Stack:
+  Advantages:- Pop O(1)
+  Disadvantages:- Lookup O(n)
+
+  Queue:
+  Advantages:- Enqueue O(1)
+  Disadvantages:- Lookup O(n)
 
 
