@@ -12,9 +12,23 @@ public class Factorial {
          *
          */
 
+        long i, factorial = 1;
+        long number = 5;
 
-        //implementation here...
+        for (i = 1; i <= number; i++) {
+            factorial = factorial * i;
+        }
+        System.out.println("Factorial of " + number + " is: " + factorial);
 
+        System.out.println("Factorial of 5 is: " + factorial(5));
+
+    }
+
+    static int factorial(int n) {
+        if (n == 0)
+            return 1;
+        else
+            return (n * factorial(n - 1));
 
     }
 
